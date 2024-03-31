@@ -3,5 +3,11 @@ public class Demo {
         System.out.println("main");
         System.out.println("branch2");
         System.out.println("branch1");
+        if (true) {
+            System.out.println("branch1");
+        }
+        else {
+            System.out.println("branch2");
+        }
     }
 }
